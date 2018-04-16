@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro Cliente</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="assests/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css" />
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3" id="form">
+      <b class="cadastro_cliente"> Clientes </b>
+      <form>
+        <div class="form-group">
+          <label class="control-label"> Nome :</label>
+          <input type="text" class="form-control" placeholder="Nome Completo" name="name"> <br />
+
+          <label class="control-label"> CPF :</label>
+          <input type="text" class="form-control" placeholder="E-mail" name="email">
+
+          <br>
+          <label class="control-label"> GÊNERO :</label>
+          <div class="radio">
+            <label><input type="radio" name="optradio">Masculino</label> &emsp;
+            <label><input type="radio" name="optradio">Feminino</label>
+          </div>
+
+          <br>
+
+          <div>
+            <label> Data de Nascimento :</label>
+            <input type="date" name="dob" class="form-control text" placeholder=""> <br />
+          </div>
+          <script type="text/javascript">
+              $(function () {
+                  $('#datetimepicker1').datetimepicker();
+              });
+          </script>
+
+          <label class="control-label"> E-mail :</label>
+          <input type="text" class="form-control" placeholder="E-mail" name="email"><br />
+
+          <label class="control-label"> Endereço :</label>
+          <input type="text" class="form-control" placeholder="Endereço" name="endereco"><br />
+
+          <label class="control-label"> Telefone :</label>
+          <input type="text" class="form-control" placeholder="(XX) X XXXX-XXXX"name="telefone">
+          <br>
+          <br>
+          <br>
+          <button type="submit" class="btn btn-lg btn-success" >SALVAR</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

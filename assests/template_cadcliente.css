@@ -1,0 +1,21 @@
+#form-cliente{
+    background-color: white;
+
+    height: 600px;
+    width: 70%;
+
+    margin-left: 30%;
+    border-radius: 10px;
+}
+.cliente_livro{
+
+    font-size: 55px;
+    font-family: Agency FB;
+    font-weight: 500;
+    margin-left: 50%;
+    border-bottom-style: ridge;
+}
+#titulo-panel{
+  margin-left: 27%;
+  color: red; */
+}

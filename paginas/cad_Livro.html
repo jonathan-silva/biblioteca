@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro Livro</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css" />
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3" id="form">
+      <b class="cadastro_livro4"> Cadastro de Livro </b>
+      		<style type="text/css">
+      			.cadastro_livro4{
+				    margin-left: 20%;
+				    font-size: 40px;
+				    font-family: Agency FB;
+				    font-weight: 700;
+				    border-bottom-style: ridge;
+				}	
+      		</style>
+
+
+      <form>
+        <div class="form-group">
+					<br>
+          <label class="control-label"> Titulo do Livro :</label>
+          <input type="text" class="form-control" placeholder="Nome Completo" name="titulo">
+
+					<label class="control-label"> Nome do Autor :</label>
+          <input type="text" class="form-control" placeholder="Autor" name="autor">
+
+					<label class="control-label"> Editora :</label>
+          <input type="text" class="form-control" name="editora">
+
+          <label class="control-label"> Números de Paginas :</label>
+          <input type="number" class="form-control" placeholder="Páginas" name="npaginas">
+          <br>
+
+          <label for="ex7"> Quantidade Disponível </label>
+		  <input type="number" class="form-control" placeholder=" ESTOQUE " id="ex7">
+
+          <br>
+			<div class="form-group">
+ 						<label for="sel1">GÊNERO :</label>
+ 						<select class="form-control" id="sel1">
+ 							<option></option>
+	 						<option>Biografias e Memórias </option>
+	 						<option>Contos e Crônicas</option>
+	 						<option>Ensaios</option>
+	 						<option>Ficção Científica e Fantasia</option>
+	 						<option>Poesia</option>
+	 						<option>Romance</option>
+	 						<option>Outros</option>
+ 						</select>
+			</div>
+
+
+
+          <div>
+            <label> Data Emissão :</label>
+            <input type="date" name="dob" class="form-control text" placeholder="">
+          </div>
+          <script type="text/javascript">
+              $(function () {
+                  $('#datetimepicker1').datetimepicker();
+              });
+          </script>
+
+         
+          <br>
+          <br>
+          <button type="submit" class="btn btn-lg btn-success">SALVAR</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

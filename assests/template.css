@@ -1,0 +1,24 @@
+body{
+    background: url("../imagens/Livro23.jpg");
+    background-size: cover;
+}
+.sidenav {
+  background: rgba(0, 0, 0, 0.4);
+
+  /*margin-top: 0.8%;   Margin do Painel Lateral ao TOPO*/
+  border-radius: 4px;  /* A borda do painel */
+}
+.carousel-inner{
+  height: 300px;
+  background-size: carousel-control;
+}
+
+/* Essa classe onde que vai as cores nos nav-pills*/
+.red{
+    color: black;
+    background-color: red;
+}
+.blue > li.active > a, .nav-pills > li.active > a:focus {
+    color: black;
+    background-color: blue;
+}

@@ -1,0 +1,32 @@
+#form-emprestimo{
+    background-color: white;
+
+    height: 600px;
+    width: 70%;
+
+    margin-left: 30%;
+    border-radius: 10px;
+}
+.emprestimo_livro{
+
+    font-size: 55px;
+    font-family: Agency FB;
+    font-weight: 500;
+    margin-left: 50%;
+    border-bottom-style: ridge;
+}
+#position-button{
+  position: absolute;
+  top: 50%;
+  right: 34%;
+}
+#titulo-panel{
+  margin-left: 30%;
+  color: red;
+}
+#ex3, #ex4, #ex7{
+  margin-left: 30%;
+}
+#titulo01, #titulo02, #titulo03{
+  margin-left: 30%;
+}

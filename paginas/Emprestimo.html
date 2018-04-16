@@ -1,0 +1,43 @@
+	<link rel="stylesheet" href="assests/template_emprestimo.css">
+	<div class="container">
+
+			<div class="" id="form-emprestimo">
+				<b class="emprestimo_livro" id="titulo-panel"> Emprestimo </b>
+
+				<div class="col-md-6">
+					<br/>
+						<form class="col-xs-9">
+							<label for="ex3" id="titulo01"> CPF :</label>
+							<input type="text" class="form-control" placeholder="Digite CPF" id="ex3">
+
+							<label for="ex4" id="titulo02"> CÓDIGO DO LIVRO : </label>
+							<input type="text" class="form-control" placeholder=" PLU " id="ex4">
+
+							<label for="ex7" id="titulo03"> QT DISPONÍVEL :</label>
+							<input type="text" class="form-control" placeholder=" ESTOQUE " id="ex7">
+						</form>
+				</div>
+
+				<div class="col-md-6">
+
+					<form class="col-xs-9">
+						<br/>
+						<label for="ex5"> CLIENTE :</label>
+						<input type="text" class="form-control" placeholder=" Matricula " id="ex5">
+
+						<label for="ex6"> DATA ATUAL :</label>
+						<input type="date" class="form-control" id="ex6">
+						<script>
+							$(function () {
+							$('#datetimepicker1').datetimepicker();
+							});
+            </script>
+					</form>
+				</div>
+
+			<button type="submit" class="btn btn-lg btn-success " id="position-button" onclick=location.href="Emprestimo_Realizado.html"> CONCLUIR </button>
+			</div>
+			<br>
+			<br>
+			<br>
+	</div>

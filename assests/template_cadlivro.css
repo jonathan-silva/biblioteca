@@ -1,0 +1,35 @@
+#form-emprestimo{
+    background-color: white;
+
+    height: 600px;
+    width: 70%;
+
+    margin-left: 30%;
+    border-radius: 10px;
+}
+.emprestimo_livro{
+
+    font-size: 55px;
+    font-family: Agency FB;
+    font-weight: 500;
+    margin-left: 50%;
+    border-bottom-style: ridge;
+}
+#titulo-panel{
+  margin-left: 30%;
+  color: red;
+}
+#ex8{
+  margin-top:8%;
+  margin-left: 8%;
+}
+/* #titulo06{
+  margin-top: 8%;
+  margin-left: 25%;
+} */
+/* #ex3, #ex4, #ex7, #ex2, #ex1{
+  margin-left: 50%;
+}
+#titulo01, #titulo02, #titulo03, #titulo04, #titulo05{
+  margin-left: 50%;
+} */
